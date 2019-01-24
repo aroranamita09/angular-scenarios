@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input} from '@angular/core';
+import { Scenario3Component } from '../scenario3.component';
 @Component({
   selector: 'app-child1',
   templateUrl: './child1.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Child1Component implements OnInit {
 
   constructor() { }
-
+  @Input() scenario3;
   ngOnInit() {
   }
 
