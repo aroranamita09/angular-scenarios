@@ -5,12 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './bacha2.component.html',
   styleUrls: ['./bacha2.component.css']
 })
-export class Bacha2Component implements OnInit {
- private name = '';
- getname(name) {this.name = name; }
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class Bacha2Component {
+  private name = '';
+  getname(name) {this.name = name; }
 }
